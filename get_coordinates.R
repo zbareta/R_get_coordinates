@@ -4,7 +4,7 @@ library(readxl)
 # Set your OpenCage API key
 key <- "API_KEY_GOES_HERE"
 
-# Read the original Excel file
+# Read the original Excel file (1 column, header "Location")
 original_df <- read_excel("list.xlsx")
 
 # Function to geocode a location
